@@ -1,0 +1,273 @@
+/* CSS RESET  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* css variables */
+:root{
+    --navbar-height:59px;
+}
+/* Navigation Bar  */
+#navbar::before{
+
+    content: "";
+    background-color: black;
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+   
+#navbar{
+    background-color: black;
+   position: sticky;
+   top: 0px;
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+/* Navigation Bar : logo and image  */
+#mainlogo{
+    margin:-25px -32px;
+
+
+}
+#mainlogo img{
+    margin: 32px 47px;
+    height: 41px;
+
+}
+
+/* Navigation Bar : list item  */
+
+
+
+
+ul{
+    display: flex;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 1px 22px;
+    margin: 0px 18px;
+  border-radius:20px ;
+    display: block;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+#home::before{
+
+    content: "";
+    background: url("../img/p2bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    height:70%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    font-size: 3.8rem;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+#home p{
+
+    font-size: 1em;
+    color: white;
+    padding: 6px;
+}
+#home button{
+    padding: 15px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#home a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* services section  */
+.services-container{
+    margin-top:50px ;
+    background-color: rgb(230, 218, 218);
+}
+#services{
+    margin: 10px 10px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 35px;
+    margin: 0px 7px;
+    background-color: #b8e4b8;
+    border-radius: 28px;
+   
+}
+#services .box img{
+    height: 175px;
+    display: block;
+    margin: auto;
+   
+   
+}
+#services .box p{
+
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* client-section  */
+#client-section{
+   
+    position: relative;
+}
+
+#client-section::before{
+    content: "";
+    background: url("../img/p2bg2.jpg") no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.5;
+    
+}
+#clients{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clients-items{
+    padding: 12px 34px;
+}
+ #clients img{
+    height:  131px;
+    
+
+    
+}
+
+
+/* contact section  */
+#contact{
+    margin-top: 5px;
+
+    position: relative;
+    height: 500px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height:500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url("../img/contact.webp") no-repeat center center/cover;
+}
+
+#contact-box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+#contact-box form{
+
+    width: 40%;
+}
+#contact-box label{
+
+    font-size: 1.3rem;
+    font-family: serif;
+    font-weight: bold;
+    
+}
+#submitbtn{
+    color: rgb(213, 93, 13);
+}
+
+footer{
+
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+/* utility classes  */
+.center{
+    text-align: center;
+}
+.h-primary{
+
+    font-size: 3.5rem;
+    padding: 12px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.h-secoundary{
+
+    font-size:1.8rem;
+    padding: 12px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
