@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+.NavBar{
+    background: #ce0606;
+    
+}
+.NavBar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.NavBar ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+.NavBar ul li a:hover{
+
+    color: black;
+}
+.NavBar ul li a:active{
+
+    color: yellow;
+}
+.NavBar ul li {
+
+    list-style-type: none;
+    padding: 13px 37px;
+}
+.containerAbo{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.containerAbo h1{
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+    font-family: 'Rampart One', cursive;
+}
+.containerAbo h2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+.achivment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card1{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/raghav-juyal-uqq2.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card1 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card2{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/Shakti-Mohan.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card2 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card3{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/prabhu\ deva.jfif"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card3 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card4{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/Hrithik-Roshan-54.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card4 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card5{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/Tiger-Shroff-1-4.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card5 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card6{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/allu\ arjun.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card6 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card7{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/remodsuza.webp"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card7 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+.card8{
+    margin: 18px;
+    height: 250px;
+    width: 281px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("cardimg/Punit_Pathak.webp"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    z-index: -1;
+}
+.card8 h3{
+    margin-top: 217px;
+    color: #f1cc0a;
+    font-size: 23px;
+    font-family: 'Rampart One', cursive;
+}
+
+
+ 
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

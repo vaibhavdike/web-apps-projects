@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.NavBar {
+    background: #ce0606;
+
+}
+.NavBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.NavBar ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+.NavBar ul li a:hover {
+
+    color: black;
+}
+.NavBar ul li a:active {
+
+    color: yellow;
+}
+.NavBar ul li {
+
+    list-style-type: none;
+    padding: 13px 37px;
+}
+.containerSer{
+    height: 641px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.containerSer h1{
+    margin-top: 15px;
+    text-align: center;
+}
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
