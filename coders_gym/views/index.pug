@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Using plain html in pug</title> -->
+    <title>#{title}</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <marquee behavior="fast" direction="left to right">WELCOME IN OUR WEBAPP WE HELP YOU TO JOIN BEST GYM IN THIS CITY</marquee>
+
+    <div class="container">
+        <h2>join this gym now in only 100$-fill this form now !</h2>
+        <form action="/" method="post" id="contact">
+         <input type="text" name="name" id="name" placeholder="Enter your name ">
+         <input type="text" name="age" id="age" placeholder="Enter your age ">
+         <input type="text" name="gender" id="gender" placeholder="Enter your Gender ">
+         <textarea name="address" id="address" cols="15" rows="10" placeholder="Enter your address"></textarea>
+        <button class="btn">Submit</button>
+        </form>
+//- <button class="btn">Submit</button>
+       
+    </div>
+
+</body>
+
+</html>
